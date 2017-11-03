@@ -9,12 +9,12 @@ public class Zadanie_2_4 {
 		int a = 1;
 		int x = 0;
 		while (a!=0) {
-			System.out.println("Podaj liczbê ca³kowit¹ dodatni¹");
+			System.out.println("Podaj liczbê ca³kowit¹ dodatni¹:");
 			a = reader.nextInt();
 			x=x+a;
 		}
 		
-		System.out.println(x);
+		System.out.println("Suma podanych liczb to "+x+".");
 
 	}
 
